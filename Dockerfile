@@ -17,7 +17,7 @@ RUN apt-get update \
 
 COPY requirements.txt .
 RUN python -m pip install --upgrade pip setuptools wheel \
-    && pip install -r requirements.txt
+    && python -m pip install --no-build-isolation -r requirements.txt
 
 COPY . .
 
