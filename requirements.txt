@@ -42,7 +42,6 @@ telegraph
 emoji
 httpx
 pybase64
-datetime
 pySmartDL
 nekos.py
 rich
